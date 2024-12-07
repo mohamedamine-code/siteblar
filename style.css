@@ -215,7 +215,7 @@ footer {
         display: block;
     }
 
-    .nav-links {
+    .nav-links a{
         display: none;
         flex-direction: column;
         background: #222;
