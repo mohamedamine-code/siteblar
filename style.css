@@ -28,7 +28,7 @@ body {
 /* Header */
 header {
     display: flex;
-    justify-content: space-between;
+    gap: 65%;
     align-items: center;
     padding: 10px 20px;
     width: 100%;
