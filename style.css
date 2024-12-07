@@ -28,7 +28,7 @@ body {
 /* Header */
 header {
     display: flex;
-    justify-content: space-between;
+    gap: 65%;
     align-items: center;
     padding: 10px 20px;
     width: 100%;
@@ -197,6 +197,18 @@ footer {
     font-size: 1.2rem;
 }
 
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-toggle {
+    display: none;
+}
+
 /* Responsive Design */
 @media screen and (max-width: 768px) {
     .menu-toggle {
@@ -211,7 +223,19 @@ footer {
         top: 100%;
         right: 0;
         width: 100%;
+        padding: 10px 0;
+        text-align: center;
     }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        width: 100%;
+    }
+
 
     .nav-links.active {
         display: flex;
@@ -233,6 +257,7 @@ footer {
     .box1 img, .box1 p {
         width: 100%;
     }
+   
 }
 
 @media screen and (max-width: 480px) {
