@@ -215,7 +215,7 @@ footer {
         display: block;
     }
 
-    .nav-links a{
+    .nav-links {
         display: none;
         flex-direction: column;
         background: #222;
@@ -261,6 +261,36 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+   .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background: #222;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        width: 100%;
+    }
+
+
+    .nav-links.active {
+        display: flex;
+    }
+    
     body {
         font-size: 12px;
         padding: 5px;
