@@ -211,9 +211,6 @@ footer {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    .menu-toggle {
-        display: block;
-    }
 
     .nav-links a{
         display: flex;
@@ -276,5 +273,16 @@ footer {
 
     .container {
         padding: 10px;
+    }
+       .nav-links a{
+        display: flex;
+        flex-direction: column;
+        background: #222;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
     }
 }
