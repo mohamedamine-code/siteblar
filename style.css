@@ -1,4 +1,27 @@
 /* Reset */
+/* Reset */
+/* Style par défaut pour desktop */
+body {
+    font-size: 16px;
+    padding: 20px;
+}
+
+  /* Pour les écrans plus petits (ex : téléphones) */
+@media screen and (max-width: 768px) {
+    body {
+    font-size: 14px;
+    padding: 10px;
+    }
+}
+
+  /* Pour les très petits écrans (ex : téléphones anciens) */
+@media screen and (max-width: 480px) {
+    body {
+    font-size: 12px;
+    padding: 5px;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
