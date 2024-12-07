@@ -1,5 +1,4 @@
 
-
 * {
     margin: 0;
     padding: 0;
@@ -88,7 +87,7 @@ header nav {
 .hero {
     width: 100%;
     display: flex;
-    background-image: url(R.jpg);
+    background-image: url(123/R.jpg);
     color: #fff;
     text-align: center;
     height: 450px;
@@ -266,12 +265,14 @@ footer {
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
 }
+
 /* Reset */
 /* Reset */
 /* Style par défaut pour desktop */
 body {
     font-size: 16px;
     padding: 20px;
+    background-color: red;
 }
 
   /* Pour les écrans plus petits (ex : téléphones) */
@@ -279,7 +280,7 @@ body {
     body {
     font-size: 14px;
     padding: 10px;
-    bachground-color: red;
+    
     }
 }
 
