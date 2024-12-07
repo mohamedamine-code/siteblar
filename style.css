@@ -79,7 +79,7 @@ header {
 .hero {
     width: 100%;
     display: flex;
-    background-image: url(123/R.jpg);
+    background-image: url(R.jpg);
     color: #fff;
     text-align: center;
     height: 450px;
@@ -203,15 +203,7 @@ footer {
         display: block;
     }
 
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        background: #222;
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 100%;
-    }
+    
 
     .nav-links.active {
         display: flex;
