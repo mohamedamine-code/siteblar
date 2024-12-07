@@ -216,7 +216,7 @@ footer {
     }
 
     .nav-links a{
-        display: none;
+        display: flex;
         flex-direction: column;
         background: #222;
         position: absolute;
