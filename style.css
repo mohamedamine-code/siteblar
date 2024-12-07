@@ -79,7 +79,7 @@ header {
 .hero {
     width: 100%;
     display: flex;
-    background-image: url(R.jpg);
+    background-image: url(123/R.jpg);
     color: #fff;
     text-align: center;
     height: 450px;
@@ -199,6 +199,9 @@ footer {
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
     .menu-toggle {
         display: block;
     }
@@ -231,6 +234,7 @@ footer {
     body {
         font-size: 12px;
         padding: 5px;
+        width: 100%;
     }
 
     .hero h2 {
