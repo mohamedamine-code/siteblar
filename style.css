@@ -79,7 +79,7 @@ header {
 .hero {
     width: 100%;
     display: flex;
-    background-image: url(123/R.jpg);
+    background-image: url(R.jpg);
     color: #fff;
     text-align: center;
     height: 450px;
